@@ -1,3 +1,27 @@
 .current {
     color: rgb(241, 73, 43);
   }
+
+.small-image {
+    width: 200px;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 200px; /* Adjust image width as needed */
+  height: 120px; /* Adjust image width as needed */
+  margin-right: 20px; /* Add some spacing between image and details */
+}
+
+.project-details h2 {
+  margin: 0;
+}
+
+.project-details p {
+  margin: 5px 0;
+}
