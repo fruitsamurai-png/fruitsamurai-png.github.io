@@ -4,3 +4,17 @@ title: Keith's Portfolio
 layout: default
 ---
 <h1>Welcome to my portfolio</h1>
+
+<div class="carousel-container">
+    <div class="carousel">
+      {% for post in site.posts %}
+      <div class="carousel-slide">
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.date | date_to_string }}</p>
+        {{ post.content }}
+      </div>
+      {% endfor %}
+    </div>
+    <button class="prev-button">Previous</button>
+    <button class="next-button">Next</button>
+</div>
