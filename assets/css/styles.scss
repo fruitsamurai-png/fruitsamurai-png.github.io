@@ -5,3 +5,10 @@
 @import "carousel";
 @import "navbar";
 @import "projects";
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply font family to body */
+body {
+  font-family: 'Roboto', sans-serif; /* Use Roboto font with fallback to system sans-serif */
+}
