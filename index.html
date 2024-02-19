@@ -4,12 +4,15 @@ title: Keith's Portfolio
 layout: default
 ---
 <h1>Welcome to my portfolio</h1>
+<p>Here,I'll be showcasing the projects that I have done in school and in my spare time. This website was created using Jekyll</p>
+
+<h2>Portfolio Showcase</h2>
 
 <div class="carousel-container">
     <div class="carousel">
       {% for post in site.posts %}
       <div class="carousel-slide">
-        <h2>{{ post.title }}</h2>
+        <h3>{{ post.title }}</h3>
         <p>{{ post.date | date_to_string }}</p>
         {{ post.content }}
       </div>

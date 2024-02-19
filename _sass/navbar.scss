@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly */
+  align-items: center; /* Align items vertically */
+  background-color: #333;
+}
+
+.nav-items {
+    margin-right: 30px; /* Add right margin to the navbar items */
+  }
+
+.navbar a {
+    color: white; /* Set the text color to white */
+    margin-left: 20px; /* Add spacing between navigation items */
+}
+.navbar a[href="/"] {
+    font-size: 1.2em; /* Adjust the font size as needed */
+  }
