@@ -1,4 +1,5 @@
 .carousel-container {
+  position: relative; /* Set position to relative */
   width: 100%;
   overflow-x: hidden; /* Enable horizontal scrolling */
   overflow-y: hidden; /* Hide vertical scrollbar */

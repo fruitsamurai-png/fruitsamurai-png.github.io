@@ -33,3 +33,36 @@ h2 {
   justify-content: center; /* Align content horizontally to center */
   align-items: center; /* Align content vertically to center */
 }
+
+.content {
+  display: flex;
+}
+
+.text-content {
+  flex: 1; /* Take remaining space */
+}
+
+.image-container {
+  position: relative;
+  display: inline-block; /* Ensure the container wraps around the image */
+}
+
+.image-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent 30%, rgba(255,255,255,0), rgba(255,255,255,1)); /* Fading gradient effect */
+  pointer-events: none; /* Ensure the gradient layer doesn't intercept mouse events */
+}
+
+.image-container img {
+  display: block;
+  max-width: 50%; /* Make sure the image is responsive */
+  height: auto;
+  padding-top: 1%;
+  padding-left: 40%;
+  border-radius: 50%; /* Make the image circular */
+}
