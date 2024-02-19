@@ -17,11 +17,16 @@
   padding: 0 70px; /* Add padding to the left and right sides */
   background-color: #a9a9a9; /* Set dark gray background color */
 }
-
+.carousel-img
+{
+  padding-top: 1%;
+}
 .carousel-slide:first-child {
   display: block; /* Show the first slide initially */
 }
-
+.carousel-slide:last-child {
+  padding: 0 90px;
+}
 .prev-button,
 .next-button {
   position: absolute; /* Position the buttons relative to the container */
@@ -34,13 +39,14 @@
   font-size: 54px; /* Adjust font size */
   color: black; /* Set default color */
 }
-.carousel-slide:last-child {
-  padding: 0 90px;
+.prev-button:hover,
+.next-button:hover {
+  color: red; /* Change color on hover */
 }
 .prev-button {
-  left: 0; /* Position the previous button on the left side */
+  right: 10px; /* Shift the previous button 10px to the right */
 }
 
 .next-button {
-  right: 0; /* Position the next button on the right side */
+  left: 10px; /* Shift the next button 10px to the left */
 }
