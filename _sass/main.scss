@@ -28,3 +28,8 @@
 h2 {
   text-align: center;
 }
+.iframe-container {
+  display: flex;
+  justify-content: center; /* Align content horizontally to center */
+  align-items: center; /* Align content vertically to center */
+}
