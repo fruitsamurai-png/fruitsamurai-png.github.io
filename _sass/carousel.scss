@@ -5,6 +5,7 @@
   overflow-y: hidden; /* Hide vertical scrollbar */
   white-space: nowrap; /* Prevent line breaks */
   text-align: center; /* Center the contents horizontally */
+  display: inline-block; /* Ensure the container wraps around the image */
 }
 
 .carousel {
