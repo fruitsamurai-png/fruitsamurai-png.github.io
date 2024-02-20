@@ -9,5 +9,5 @@ Currently, a senior undergraduate undertaking a bachelor's in Computer Science i
 Proficient in technical production through several project management methods like scrums and kanban, experienced with working with commercial game engines like Unity and custom ones that my project teams and I implemented. Hoping to be a part of something bigger!
 
 <div class="iframe-container">
-  <iframe src="/assets/images/Keith-Chng-Resume-20240207.pdf" width="40%" height="600px"></iframe>
+  <iframe src="/assets/images/Keith-Chng-Resume-20240207.pdf" width="50%" height="600px"></iframe>
 </div>
