@@ -17,3 +17,7 @@
 .navbar a[href="/"] {
     font-size: 1.2em; /* Adjust the font size as needed */
   }
+.navbar a:hover,
+.navbar a[href="/"]:hover {
+  color: rgb(110, 110, 110); /* Change color on hover */
+}

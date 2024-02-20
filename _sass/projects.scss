@@ -10,7 +10,9 @@
     flex: 1; /* Take up remaining space */
     margin-left: 10px; /* Add some spacing between image and text */
   }
-  
+.my-licontainer{
+    list-style: none; /* Remove bullet points */
+}
 .project img {
     width: 400px; /* Adjust image width as needed */
     height: 300px; /* Adjust image width as needed */
@@ -18,6 +20,9 @@
 .projecturl{
     text-align: left;
 }
-.my-licontainer{
-  list-style: none; /* Remove bullet points */
+.project-details :visited {
+  color: inherit; /* Use the same color as the regular link */
+}
+.projecturl:hover{
+  color: rgb(110, 110, 110); /* Change color on hover */
 }

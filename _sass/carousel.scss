@@ -52,3 +52,9 @@
 .next-button {
   left: 10px; /* Shift the next button 10px to the left */
 }
+.carousel :visited {
+  color: inherit; /* Use the same color as the regular link */
+}
+.carousel-url :hover{
+  color: rgb(236, 236, 236); /* Change color on hover */
+}
