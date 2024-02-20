@@ -16,19 +16,19 @@
 .carousel-slide {
   flex: 0 0 auto;
   width: 90%; /* Ensure slides take full width of container */
-  padding: 0 70px; /* Add padding to the left and right sides */
+  padding: 0 100px; /* Add padding to the left and right sides */
   background-color: #a9a9a9; /* Set dark gray background color */
 }
 .carousel-img
 {
   padding-top: 1%;
+  width: 500px; /* Adjust image width as needed */
+  height: 500px; /* Adjust image width as needed */
 }
 .carousel-slide:first-child {
   display: block; /* Show the first slide initially */
 }
-.carousel-slide:last-child {
-  padding: 0 90px;
-}
+
 .prev-button,
 .next-button {
   position: absolute; /* Position the buttons relative to the container */
