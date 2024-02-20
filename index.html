@@ -35,8 +35,10 @@ layout: default
   <button class="prev-button">&#10095;</button>
   <div class="carousel">
     {% for post in site.posts %}
-    <div class="carousel-slide">
+    <div class="carousel-slide" >
+      <a href="{{ post.url }}">
         <img class="carousel-img" src="{{ post.image }}" alt="{{ post.title }}">
+      </a>
         <h2 class="carousel-url"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     </div>
     {% endfor %}
