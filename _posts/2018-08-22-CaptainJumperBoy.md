@@ -13,3 +13,5 @@ CaptainJumperBoy is a simple 2D mobile game inspired by the classic Doodle Jump 
 The game was developed solely in Android Studio, using Kotlin. Due to project restrictions, game development solutions such as the Android NDK or Android GDK were not permitted for use in the development of this project.
 
 The engine uses a simple component-based entity system, achieved using object inheritance and polymorphism. The rendering layer uses Android Canvas as its core, using matrix transformations to implement entity transform and camera systems.
+
+### My Contributions 
