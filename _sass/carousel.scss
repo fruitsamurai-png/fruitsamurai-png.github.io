@@ -11,6 +11,7 @@
 .carousel {
   display: flex; /* Ensure the carousel takes only the necessary width */
   transition: transform 0.5s ease-in-out;
+  color: rgb(0, 0, 0); /* Change color on hover */
 }
 
 .carousel-slide {
