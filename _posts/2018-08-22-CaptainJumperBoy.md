@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Keith
-image: /assets/images/CaptainJumperBoy.png
+image: /assets/images/captainjumperboy.png
 excerpt_separator: <!--more-->
 ---
 Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the
