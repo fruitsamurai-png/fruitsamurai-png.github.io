@@ -4,9 +4,9 @@ author: Keith
 image: /assets/images/captainjumperboy.png
 excerpt_separator: <!--more-->
 ---
-Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the
-edible berry of several species of woody vines in the genus Actinidia.
+CaptainJumperBoy is a simple 2D mobile game inspired by the classic Doodle Jump mobile game. It was developed for the Mobile App Development portion of the CSD3156 module.
 <!--more-->
+
 
 The most common cultivar group of kiwifruit is oval, about the size of
 a large hen's egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm
