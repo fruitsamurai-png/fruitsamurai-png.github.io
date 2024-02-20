@@ -13,9 +13,11 @@
 .navbar a {
     color: white; /* Set the text color to white */
     margin-left: 20px; /* Add spacing between navigation items */
+    transition: color 0.3s ease; /* Add transition effect for color change */
 }
 .navbar a[href="/"] {
     font-size: 1.2em; /* Adjust the font size as needed */
+    transition: color 0.3s ease; /* Add transition effect for color change */
   }
 .navbar a :visited{
   color: inherit; /* Use the same color as the regular link */

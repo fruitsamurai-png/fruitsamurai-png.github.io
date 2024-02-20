@@ -19,6 +19,7 @@
   }
 .projecturl{
     text-align: left;
+    transition: color 0.3s ease; /* Add transition effect for color change */
     color: rgb(0, 0, 0); /* Change color on hover */
 }
 .project-details :visited {
