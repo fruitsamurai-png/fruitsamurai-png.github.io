@@ -15,3 +15,5 @@ The game was developed solely in Android Studio, using Kotlin. Due to project re
 The engine uses a simple component-based entity system, achieved using object inheritance and polymorphism. The rendering layer uses Android Canvas as its core, using matrix transformations to implement entity transform and camera systems.
 
 ### My Contributions 
+- Implemented gameplay using the accelerometer and gyroscopes
+- Assisted in implementation of core architecture for game backend using Android Canvas

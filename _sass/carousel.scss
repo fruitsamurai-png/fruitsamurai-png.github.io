@@ -20,6 +20,9 @@
 .carousel :visited {
   color: inherit; /* Use the same color as the regular link */
 }
+.carousel :link {
+  color: inherit; /* Use the same color as the regular link */
+}
 
 .carousel-slide {
   flex: 0 0 auto;

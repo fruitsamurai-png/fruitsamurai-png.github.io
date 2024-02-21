@@ -22,6 +22,9 @@
 .navbar a :visited{
   color: inherit; /* Use the same color as the regular link */
 }
+.navbar a :link{
+  color: inherit; /* Use the same color as the regular link */
+}
 .navbar a:hover,
 .navbar a[href="/"]:hover {
   color: rgb(110, 110, 110); /* Change color on hover */
